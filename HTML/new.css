@@ -1,0 +1,279 @@
+body {
+    background-size: cover;
+    background-color: rgb(156, 154, 150);
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    
+    width: 100%;
+    height: 85px;
+    background-color:rgb(199, 197, 193);
+    
+}
+.logo{
+     
+    float: left;
+    margin-top: 8px; 
+    margin-left: 3px;
+}
+
+.function{
+   width: auto;
+    float: right;
+    margin-right: 1em;  
+    clear: inherit;
+}
+
+.log{
+    width: auto;
+    float: right;
+    
+}
+#login {
+    float: left;
+    font-family: cursive;
+    width: 5em;
+    padding-top: 26px;
+    height: 4em;
+    box-shadow: 1px 1px 2px;
+    border-bottom-style: outset;
+    text-decoration: none;
+}
+
+#Register{
+    font-family: cursive;
+    float: left;
+    width: 5em;
+    padding-top: 26px;
+    height: 4em;
+    box-shadow: 1px 1px 2px;
+    border-bottom-style: outset;
+    text-decoration: none;
+}
+
+.bacground1{
+    display: block;
+    float: right;
+    width: auto;
+    margin-top:0.5em;
+    margin-right: 20px;
+}
+
+.text{
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    font-style: oblique;
+    font-size: 3.5em;
+    background-image: url(https://assets.fstatic.nl/master_1428/assets/components/search-banner/images/herenhuis-silhouet.svg);
+    background-size: 15.5em;
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 0;
+  
+}
+.line{
+    border-bottom: 1px solid black;
+}
+.map{
+    float: right;
+    border: 0.25em solid black;
+    box-shadow: 2px 3px 4px;  
+}
+iframe{
+    height: 400px;
+}
+.for{
+    float: left;
+    width: 54%;
+    height: 10%;
+    background-color:rgb(199, 197, 193);
+}
+#forsale{
+    list-style: none;
+    float: left;
+    margin-right: 2em;
+    font-family: cursive;  
+    color: black;
+    margin-left: 6em;
+}
+#forsale:hover{
+    background-color: rgb(156, 154, 150);
+    border-radius: 0.50em;
+    box-shadow: 2px 3px 4px white;
+    width: 4em;
+    height: 1.5em;
+    cursor: pointer;
+}
+#forrent{
+    list-style: none;
+    float: left;
+    margin-right: 5em;
+    font-family: cursive;
+    color: black;
+}
+#forrent:hover{
+    background-color: rgb(156, 154, 150);
+    border-radius: 0.50em;
+    box-shadow: 2px 3px 4px white;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+
+}
+#Newlybulit{
+    list-style: none;
+    float: left;
+    margin-right: 5em;
+    font-family: cursive;
+    color: black;
+}
+#Newlybulit:hover{
+    background-color: rgb(156, 154, 150);
+    border-radius: 0.50em;
+    box-shadow: 2px 3px 4px  white;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.select1{
+    width: 55%;
+    height: 80%;
+    
+}
+#search{
+    float: left;
+    padding-left: 5em;
+    border: 1px solid white;
+    height: 8%;
+    width: 65%;
+    color: #0071B3;
+    margin-top: 2em;
+    margin-right: 1em;
+    font-size: 18;
+    font-family: fantasy;
+    cursor: pointer;
+    
+}
+#select{
+    float: left;
+    padding-left: 5em;
+    border: 1px solid white;
+    height: 9%;
+    width: 25%;
+    color: #0071B3; 
+    margin-top: 2em;
+    font-size: 1em;
+    font-family: fantasy;
+    cursor: pointer;
+}
+#from{
+    float: left;
+    padding-left: 2em;
+    border: 1px solid white;
+    height: 8%;
+    width: 40%;
+    color: #0071B3; 
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    font-family: fantasy;
+    cursor: pointer;
+}
+#to{
+    float: left;
+    padding-left: 5em;
+    margin-top: 2em;
+    border: 1px solid white;
+    width: 40%;
+    height: 8%;
+    color: #0071B3; 
+    font-size: 1em;
+    font-family: fantasy;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.search{
+    float: left;
+    background-color: blue;
+    color: aliceblue;
+    width: 60%;
+    height: 8%;
+    margin-top: 2em;
+    font-size: 1em;
+    margin-left: 6em;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+h1{
+   text-align: center;
+   border: 1px solid white;
+   box-shadow: 2px 3px 4px black;
+   background-color:rgb(199, 197, 193);
+   border-radius: 2em;
+   margin-top: 1em;
+}
+
+.img{
+    
+    margin-top: 150px
+}
+.img1,
+.img2{
+    
+    float: left;
+    width: 30%;
+    height: 200px;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 1em;
+    margin-left: 2em;
+    overflow: hidden;
+    padding-top: 2em;
+    text-align: center;
+    
+    
+}
+.imgw{
+    
+    height: 400px;
+}
+.img1:hover{
+    
+    animation-name: imganmi;
+    animation-duration: 100s;
+    animation-timing-function: step-start;
+    border: 1px solid white;
+    box-shadow: 2px 3px 4px black;
+    background-color: white;
+
+    
+} 
+.img2:hover{
+    
+    animation-name: imganmi;
+    animation-duration: 100s;
+    animation-timing-function: step-start;
+    border: 1px solid white;
+    box-shadow: 2px 3px 4px black;
+    background-color: white;
+
+}
+
+@keyframes imganmi{
+    
+    from{
+        
+    height: 200px;
+        
+    }
+    
+    to{
+        height: 350px;
+        
+    }
+}
